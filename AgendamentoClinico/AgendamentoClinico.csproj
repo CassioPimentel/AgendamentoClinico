@@ -100,6 +100,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AgendamentoController.cs" />
+    <Compile Include="Controllers\ClinicaController.cs" />
+    <Compile Include="Controllers\PacienteController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -124,7 +127,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
+    <Folder Include="Views\Agendamento\" />
+    <Folder Include="Views\Clinica\" />
+    <Folder Include="Views\Paciente\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
