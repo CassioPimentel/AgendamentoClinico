@@ -3,14 +3,14 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace AgendamentoClinico.Models
 {
-    [Table("AGC_SITUACAO")]
-    public class Situacao
+    [Table("AGC_CONVENIO")]
+    public class Convenio
     {
         [Key]
-        [Column("SIT_IN_CODIGO")]
+        [Column("COV_IN_CODIGO")]
         public int Codigo { get; set; }
 
-        [Column("SIT_ST_DESCRICAO")]
+        [Column("COV_ST_DESCRICAO")]
         public string Descricao { get; set; }
     }
 }
